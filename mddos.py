@@ -3,9 +3,11 @@ import os
 from time import sleep
 import multiprocessing
 import random
+from colorama import *
 import platform
 import time
 from colorama import Fore
+
 os.system('clear')
 
 print("Detecting System...")
@@ -16,10 +18,9 @@ if sysOS == "Linux":
   try:
     os.system("ulimit -n 1030000")
 
-print(Fore.BLUE+'''
+print(Fore.GREEN+"
 	           █▀▄ █▀▄ █▀█ █▀  
-	           █▄▀ █▄▀ █▄█ ▄█  
-	 ''')   
+	           █▄▀ █▄▀ █▄█ ▄█  ")   
     
   except Exception as e:
     print(e)
