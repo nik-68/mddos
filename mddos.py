@@ -71,7 +71,7 @@ print("Master DDoS\n")
 ip = input(" IP/Domain: => ")
 port = int(input(" Port: => "))
 url = f"http://{str(ip)}"
-print("[>>>]<<<Starting Attack>>>[%s]")
+print("[>>>]<<<Starting Attack>>>[<<<]")
 sleep(1)
 
 def send2attack():
