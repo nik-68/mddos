@@ -18,9 +18,32 @@ if sysOS == "Linux":
     os.system("ulimit -n 1030000")
  
           
-   print(''' █▀▄ █▀▄ █▀█ █▀  
-	     █▄▀ █▄▀ █▄█ ▄█ ''') 
+os.system("clear")
+print("З А Г Р У З К А....")
+time.sleep(1.5)
+os.system("clear")
+print('''
+    KAZUYA AND TEAM
+ 
+╭╮╭━╮
+┃┃┃╭╯
+┃╰╯╯╭━━┳━━━┳╮╭┳╮╱╭┳━━╮
+┃╭╮┃┃╭╮┣━━┃┃┃┃┃┃╱┃┃╭╮┃
+┃┃┃╰┫╭╮┃┃━━┫╰╯┃╰━╯┃╭╮┃
+╰╯╰━┻╯╰┻━━━┻━━┻━╮╭┻╯╰╯
+╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
+╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯
+                                
+''') 
+time.sleep(3.5)
+os.system("clear")
+print("Detecting System...")
+sysOS = platform.system()
+print("System detected: ", sysOS)
 
+if sysOS == "Linux":
+  try:
+    os.system("ulimit -n 1030000")
   except Exception as e:
     print(e)
     print("Could not start the script")
