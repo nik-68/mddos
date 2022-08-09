@@ -68,8 +68,8 @@ def attack():
       pass
 
 print("Master DDoS\n")
-ip = input(" IP/Domain:=> ")
-port = int(input(" Port:=> "))
+ip = input(" IP/Domain: => ")
+port = int(input(" Port: => "))
 url = f"http://{str(ip)}"
 print("[>>>]<<<Starting Attack>>>[%s]")
 sleep(1)
