@@ -16,11 +16,13 @@ print("System detected: ", sysOS)
 if sysOS == "Linux":
   try:
     os.system("ulimit -n 1030000")
+ 
+          
+   print(Fore.BLUE+'''
+	           █▀▄ █▀▄ █▀█ █▀  
+	           █▄▀ █▄▀ █▄█ ▄█  
+	 ''') 
 
-print(Fore.GREEN + "
-	            █▀▄ █▀▄ █▀█ █▀  
-	            █▄▀ █▄▀ █▄█ ▄█  ")   
-    
   except Exception as e:
     print(e)
     print("Could not start the script")
