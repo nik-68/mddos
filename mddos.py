@@ -18,10 +18,8 @@ if sysOS == "Linux":
     os.system("ulimit -n 1030000")
  
           
-   print(Fore.BLUE+'''
-	           █▀▄ █▀▄ █▀█ █▀  
-	           █▄▀ █▄▀ █▄█ ▄█  
-	 ''') 
+   print(''' █▀▄ █▀▄ █▀█ █▀  
+	     █▄▀ █▄▀ █▄█ ▄█ ''') 
 
   except Exception as e:
     print(e)
