@@ -8,16 +8,6 @@ import platform
 import time
 from colorama import Fore
 
-os.system('clear')
-print("Detecting System...")
-sysOS = platform.system()
-print("System detected: ", sysOS)
-
-if sysOS == "Linux":
-  try:
-    os.system("ulimit -n 1030000")
- 
-          
 os.system("clear")
 print("З А Г Р У З К А....")
 time.sleep(1.5)
@@ -37,6 +27,7 @@ print('''
 ''') 
 time.sleep(3.5)
 os.system("clear")
+
 print("Detecting System...")
 sysOS = platform.system()
 print("System detected: ", sysOS)
