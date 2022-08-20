@@ -79,6 +79,6 @@ def send2attack():
     mp = multiprocessing.Process(target=attack)
     mp.setDaemon = False
     mp.start() #Magic Starts
-
+    print(colored("[!] sent %s Target: %s" % (sent, ip), 'yellow'))
     
 send2attack()
